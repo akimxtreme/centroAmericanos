@@ -1,0 +1,176 @@
+/* Estilos Globales */
+html {
+font-family:sans-serif;
+}
+/* Estilos del Contenedor */
+#contenedor {
+    width:960px;
+    margin: 0 auto;
+    padding:0;
+}
+/* Estilos del Banner */
+#banner {
+    width:100%;
+    height:250px;
+    background:#9d9d9c;
+    margin:0;
+    padding:0;
+    float:left;
+}
+/* Estilos del Menu */
+#menuPrincipal {
+    float:left;
+    margin:-1px 0 0 0;
+    padding:10px 0;
+    background:#009640;
+    width:100%;
+}
+#menuPrincipal li img { 
+    width:16px;
+    height:16px;
+}
+#menuPrincipal li {
+    float:left;
+    list-style:none;
+    color:#FFF;
+    font-weight:normal;
+    letter-spacing:0.05em;
+    background:none;
+    margin: 0 15px;
+    text-transform:capitalize;
+}
+#menuPrincipal li ul {
+    float:left;
+    visibility:hidden;
+    position:absolute;
+    background:#009640;
+    padding:0;
+    margin:0px 0 0 0;
+    width:420px;
+    opacity:0;
+    font-weight:normal;
+    padding:16px 0 10px 0;
+    
+}
+#menuPrincipal li ul li{
+    text-transform:none;
+    list-style:none;
+    float:left;
+    width:60%;
+    margin:5px 0;
+    padding: 5px 2.5%;
+    font-weight:normal;
+}
+#menuPrincipal li:hover ul {
+    z-index:9998;
+    
+    opacity:0.95;	
+		/* Firefox */ -moz-transition: opacity 1s linear 0s;
+		/* Chrome / Safari*/ -webkit-transition: opacity 1s linear 0s;
+		/* Opera */ -o-transition: opacity 1s linear 0s;
+		/* Default */ transition: opacity 1s linear 0s;
+    visibility:visible;
+		/* Firefox */ -moz-transition: visible 1s linear 1s;
+		/* Chrome / Safari*/ -webkit-transition: visible 1s linear 1s;
+		/* Opera */ -o-transition: visible 1s linear 1s;
+		/* Default */ transition: visible 1s linear 1s;
+    
+}
+#menuPrincipal li ul a:link {text-decoration:none;color:#FFF;}
+#menuPrincipal li ul a:visited {text-decoration:none;color:#FFF;}
+#menuPrincipal li ul a:hover {text-decoration:underline;color:#FFF;}
+#menuPrincipal li ul a:active {text-decoration:none;color:#FFF;}
+
+#menuPrincipal form {
+    float:left;
+    width:100%;
+    margin:0 0 0 70px;
+    padding:0;
+    height:20px;
+    font-family:'Helvetica';
+	position:inherit;
+	z-index:9999;
+}
+#menuPrincipal form select {
+    float:left;
+    padding:0;
+    margin:0;
+    font-family:'Helvetica';
+    color:#0f4496;
+    height:20px;
+    width:220px;
+    font-size:14px;
+    border: 1px solid #0f4496;
+}
+#menuPrincipal form select option {
+    font-family:'Helvetica';
+    color:#0f4496;
+}
+#menuPrincipal form button { float:left;  padding:0 5px; margin:0; border-radius:0; background:#0f4496; border:none; height:20px; color:#FFF; }
+
+/* Estilos del Slider */
+#slider {
+    float:left;
+    width:100%;
+    padding:0;
+    margin:20px 0 20px 0;
+    height:441px;
+    background:#9d9d9c;
+}
+
+.bxslider {
+float:left; width:100%; margin:0; padding:0;}
+
+/* Estilos del Pie */
+#pie {
+    float:left;
+    width:100%;
+    margin:0 0 10px 0;
+    padding:10px 0;
+    height:auto;
+    background:#0f4496;
+}
+#pie ul {
+    float:left;
+    width:100%;
+    padding:0;
+    margin:0;
+    color:#FFF;
+    font-size:13px;
+}
+#pie ul li {
+    float:left;
+    text-decoration:underline;
+    list-style:none;
+    font-weight:bold;
+    width:22.5%;
+    padding: 0px 1.25%;   
+    background:none;
+}
+
+#pie ul li ul { margin: 5px 0;}
+#pie ul li ul li{
+    font-weight:normal;
+    text-decoration:none;
+    width:100%;
+    list-style-type:square;
+    list-style-position:inside;
+}
+
+#pie li a:link {text-decoration:none;color:#FFF;}
+#pie li a:visited {text-decoration:none;color:#FFF;}
+#pie li a:hover {text-decoration:underline;color:#FFF;}
+#pie li a:active {text-decoration:none;color:#FFF;}
+
+#pie li ul a:link {text-decoration:none;color:#FFF;}
+#pie li ul a:visited {text-decoration:none;color:#FFF;}
+#pie li ul a:hover {text-decoration:underline;color:#FFF;}
+#pie li ul a:active {text-decoration:none;color:#FFF;}
+
+#pie p { float:left; width: 100%; text-align:center; margin:10px 0 0 0; padding:0; font-size:12px; color:#FFF;}
+
+/* Estilos del Contenido */
+
+#contenido h1{ color:#0f4496; float:left; width:100%; margin:20px 0 20px 0; padding:0; }
+#contenido h3 {color:#1d1d1a; float:left; width:100%; margin:20px 0 20px 0; padding:0; }
+#contenido a{ color:#0f4496; float:left; width:100%; margin:20px 0 20px 0; padding:0; text-align:right; }
